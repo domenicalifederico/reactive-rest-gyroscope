@@ -17,6 +17,10 @@ public class OrientationData {
 	private String id;
 	private String device;
 	
+	private int x;
+	private int y;
+	private int z;
+	
 	public void setId(String id) {
 		this.id = id;
 	}
@@ -47,8 +51,4 @@ public class OrientationData {
 	public int getZ() {
 		return z;
 	}
-	private int x;
-	private int y;
-	private int z;
-	
 }
